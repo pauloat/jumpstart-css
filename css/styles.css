@@ -16,24 +16,21 @@ body > header {
   nav ul {
   }
 
-.header-inside {
+.center-global {
   width: 1020px;
   margin: 0 auto;
+}
+
+.header-inside {
 }
 
 .promo {
-  width: 1020px;
-  margin: 0 auto;
 }
 
 .footer-inside {
-  width: 1020px;
-  margin: 0 auto;
 }
 
 .main {
-  width: 1020px;
-  margin: 0 auto;
   outline: solid 1px red;
   background: green;
 }
