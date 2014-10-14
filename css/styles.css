@@ -85,3 +85,29 @@ footer {
   top: 4px;
 }
 
+.logo {
+  float: left;
+  margin-left: 145px;
+  margin-top: -34px;
+  position: relative;
+  top: 34px;
+}
+
+nav {
+  float: right;
+  margin-right: 177px;
+  padding-top: 20px;
+}
+
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+    nav ul li {
+      display: inline-block;
+      *display: inline; /* for IE7 */
+      margin-right: 30px;
+    }
+
