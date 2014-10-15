@@ -1,3 +1,9 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
 a:link, a:visited {
 }
 
@@ -39,7 +45,7 @@ body > header {
 .main {
 }
 
-  .lastest {
+  .latest {
     width: 640px;
     float: left;
     padding: 0 40px;
