@@ -16,6 +16,9 @@ nav a {
   color: #fefefe;
 }
 
+nav ul {
+}
+
 h1 {
 }
 
@@ -70,7 +73,10 @@ body > header {
   z-index: 10;
 }
 
-nav ul {
+h1, h2, nav {
+  font-family: chelsea_marketregular, Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  font-weight: normal;
 }
 
 .center-global {
@@ -237,5 +243,10 @@ nav {
       display: inline-block;
       *display: inline; /* for IE7 */
       margin-right: 30px;
+      font-size: 20px;
+    }
+
+    nav ul li:last-child {
+      margin-right: 0;
     }
 
