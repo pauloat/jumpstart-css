@@ -61,7 +61,7 @@ h2 {
 body {
   background: #cab5a3 url(../images/bg-main.gif) repeat repeat 0 0;
   color: #333;
-  font-family: Lato, Arial, Helvetica, sans-serif;
+  font-family: latoregular, Arial, Helvetica, sans-serif;
 }
 
 body > header {
@@ -70,19 +70,8 @@ body > header {
   z-index: 10;
 }
 
-@font-face {
-  font-family: Lato;
-  src: url('lato-regular-webfont.eot');
-  src: url('lato-regular-webfont.eot?#iefix') format('embedded-opentype'),
-       url('lato-regular-webfont.woot') format('woff'),
-       url('lato-regular-webfont.ttf') format('truetype'),
-       url('lato-regular-webfont.svg#latoregular') format('svg');
-  font-weight: normal;
-  font-style: normal;
+nav ul {
 }
-
-  nav ul {
-  }
 
 .center-global {
   width: 1020px;
