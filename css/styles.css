@@ -187,13 +187,21 @@ h1, h2, nav {
   padding-top: 4px;
   padding-right: 15px;
   width: 45px;
+  color: #810430;
+  font-size: 13px;
 }
 
 .pop-item {
   padding-bottom: 20px;
   float: left;
   width: 250px;
+  text-transform: uppercase;
+  font-size: 18px;
 }
+
+  .pop-item a {
+    color: #544a40;
+  }
 
 footer {
   background-color: rgb(66, 3, 30);
@@ -274,6 +282,7 @@ footer {
   padding-left: 55px;
   padding-right: 20px;
   position: relative;
+  line-height: 1.4;
 }
 
 .tweet:before {
@@ -290,6 +299,10 @@ footer {
 
 .tweet .date {
   color: #8f7e6d;
+  font-family: Arial, sans-serif;
+  color: #8f7e6d;
+  font-size: 12px;
+  font-style: italic;
 }
 
 .logo {
