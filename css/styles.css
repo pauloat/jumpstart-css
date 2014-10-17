@@ -10,10 +10,17 @@ a {
 }
 
 a:hover {
+  text-decoration: underline;
 }
 
 nav a {
   color: #fefefe;
+  transition: color .4s ease-out;
+}
+
+nav a:hover {
+  text-decoration: none;
+  color: #cdb8a5;
 }
 
 nav ul {
@@ -118,6 +125,10 @@ h1, h2, nav {
   color: #fefefe;
 }
 
+.promo-btn:hover {
+  text-decoration: none;
+}
+
 .more-btn {
   text-align: center;
   float: right;
@@ -144,6 +155,20 @@ h1, h2, nav {
       padding-bottom: 28px;
       overflow: hidden;
     }
+
+      .media a {
+        text-decoration: none;
+      }
+
+      .media a h2,
+      .media a p {
+        transition: color .3s linear;
+      }
+
+      .media a:hover h2,
+      .media a:hover p {
+        color: #b32c1c;
+      }
 
       .media img {
         float: left;
