@@ -85,6 +85,7 @@ body > header {
   box-shadow: rgba(0, 0, 0, .25) 0 3px 2px 0;
   position: relative;
   z-index: 10;
+  background-image: linear-gradient(#87053e, #560329);
 }
 
 h1, h2, nav {
@@ -104,6 +105,7 @@ h1, h2, nav {
   z-index: 5;
   padding-bottom: 8px;
   box-shadow: rgba(0, 0, 0, .25) 0 3px 2px 0;
+  background-image: linear-gradient(#4e0324, #4e0324 97%, #851f49);
 }
 
 .promo-desc {
@@ -123,6 +125,7 @@ h1, h2, nav {
   width: 208px;
   padding: 13px 0;
   background-color: #6c0733;
+  background-image: linear-gradient(#87053e, #560329);
   box-shadow: rgba(0, 0, 0, .25) 0 7px 2px 0;
   font-size: 20px;
   color: #fefefe;
@@ -139,6 +142,8 @@ h1, h2, nav {
   float: right;
   margin-right: 50px;
   width: 280px;
+  background-color: #2d1e10;
+  background-image: linear-gradient(#6b5139, #2d1e10);
 }
 
 .footer-inside {
